@@ -1,0 +1,18 @@
+@import "tailwindcss";
+:root {
+  font-family: poppins, sans-serif, monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+/* Body default */
+body {
+  background-color: #fff;
+  color: var(--primary-color);
+  font-family: inherit;
+}
+
+/* Smooth scroll ke section */
+html {
+  scroll-behavior: smooth;
+}
